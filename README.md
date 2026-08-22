@@ -73,5 +73,3 @@ logistics-delivery-analysis/
 ├── src/
 ├── visualizations/
 └── README.md
-
-Muskan Rathore
