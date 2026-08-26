@@ -63,13 +63,42 @@ The project uses a logistics delivery dataset containing delivery-level informat
 The raw dataset is maintained locally and is not redistributed in this repository.
 
 ## Repository Structure
-
 ```text
 logistics-delivery-analysis/
 │
 ├── data/
-├── notebooks/
-├── reports/
-├── src/
-├── visualizations/
+│   ├── Delivery_Logistics.csv
+│   └── README.md
+│
+├── week-1/
+│   ├── Week_1_Logistics_Strategic_Planning_Report_Muskan_Rathore.docx
+│   └── week1_data_exploration.py
+│
+├── week-2/
+│   ├── Week_2_Data_Cleaning_Preprocessing_Report.docx
+│   ├── Week_2_Report.md
+│   └── week2.py
+│
+├── week-3/
+│   ├── Week_3_Report_Final.docx
+│   ├── average_cost_by_partner.png
+│   ├── correlation_heatmap.png
+│   ├── cost_by_vehicle_type.png
+│   ├── delivery_cost_distribution.png
+│   ├── distance_distribution.png
+│   ├── distance_vs_delivery_cost.png
+│   └── week3_analysis.py
+│
+├── week-4/
+│   ├── Week_4_Report_Final.docx
+│   ├── actual_vs_predicted.png
+│   ├── average_cost_by_distance_band.png
+│   ├── average_cost_by_weight_band.png
+│   ├── feature_importance.png
+│   ├── grouped_feature_importance.png
+│   ├── prediction_error_distribution.png
+│   └── week4_predictive_model.py
+│
 └── README.md
+```
+
